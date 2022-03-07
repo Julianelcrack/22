@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="device_forever" id="_p}%4d9!n!3XEnE8V@-P" x="0" y="0"><statement name="HANDLER"><block type="device_pause" id=";bd(MBpYvQPXK51Am##$"><value name="pause"><shadow type="timePicker" id="1qtt)Bx@CPT3Px7M4yil"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="4]pWl[!N))8dY.qvOuK^"><field name="LEDS">`
+        . # . # . 
+        # # # # # 
+        # # # # # 
+        . # # # . 
+        . . # . .
+        `</field><next><block type="device_pause" id=")tM9wE1G!h]$ynRiv`x}"><value name="pause"><shadow type="timePicker" id="(^zjJJ$PE~$UT+Ezo{TA"><field name="ms">500</field></shadow></value><next><block type="device_show_leds" id="CJQL#6bBf,Dv!4m@}QES"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . # # # . 
+        . . # . . 
+        . . . . .
+        `</field></block></next></block></next></block></next></block></statement></block><block type="device_pin_event" id="2;$j?(]fT/XvCe[]v6ZD" x="-441" y="415"><field name="name">TouchPin.P1</field><statement name="HANDLER"><block type="device_print_message" id="_U@e#-Q`AOaxS$9gXMDV"><value name="text"><shadow type="text"><field name="TEXT">Hello!</field></shadow><block type="logic_random" id="d0SF!iFkNV~WX6Ip^q6e"/></value></block></statement></block><block type="device_pin_released" id="]w{X*]VfFkzN-%1~!_3#" x="-294" y="589"><field name="NAME">TouchPin.P0</field><statement name="HANDLER"><block type="device_print_message" id="f*dV1qwnlPvro.8@^YSd"><value name="text"><shadow type="text"><field name="TEXT">Hello!</field></shadow><block type="device_random" id="I*8;48q8k=a}L7H2VBWI"><value name="min"><shadow type="math_number" id="R|%HsC{rEDjb4[IH2rPT"><field name="NUM">0</field></shadow></value><value name="limit"><shadow type="math_number" id="!Enw-H,w^Xe#(?#4G1iT"><field name="NUM">100</field></shadow></value></block></value></block></statement></block></xml>
